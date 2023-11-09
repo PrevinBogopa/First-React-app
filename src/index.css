@@ -218,9 +218,11 @@ body {
 }
 
 .pizzas {
-
+padding-left: 30px;
+padding-right: 30px;
   grid-template-columns: 1fr 1fr;
   gap: 1.8rem;
+
 }
 
 .pizza {
