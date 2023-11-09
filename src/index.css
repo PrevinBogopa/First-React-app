@@ -181,7 +181,89 @@ body {
 .btn:hover {
   background-color: #e9bb24;
 }
+@media only screen and (max-width: 767px) {
+ 
+  .header h1 {
+   font-size: 2.2rem;
+ 
+  }
 
+  html {
+    font-size: 48.5%;
+  }
+  
+body {
+
+  border-bottom: 0.6rem solid #edc84b;
+  min-height: 100vh;
+  padding: 2.2rem;
+  padding-bottom: 3rem;
+}
+
+.container {
+  max-width: 40rem;
+  align-items: center;
+  gap: 1.8rem;
+}
+
+.menu {
+
+  gap: 2rem;
+}
+.menu > p {
+  font-size: 1.rem;
+  text-align: center;
+  line-height: 1.3;
+  width: 90%;
+}
+
+.pizzas {
+
+  grid-template-columns: 1fr 1fr;
+  gap: 1.8rem;
+}
+
+.pizza {
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 3px;
+  border-right: 1.5px dashed #edc84b;
+  border-left: 1.5px dashed #edc84b;
+}
+.pizza img {
+  width: 10rem;
+}
+
+.pizza div {
+  gap: 0.1rem;
+
+}
+
+.pizza h3 {
+  font-size: 1.4rem;
+  padding-bottom: 5px;
+}
+
+.pizza p {
+  font-size: 1.1rem;
+  font-weight: 300;
+  padding-bottom: 3px;
+}
+
+.pizza span {
+  display: block;
+  font-size: 1.2rem;
+}
+
+.pizza.sold-out {
+  color: #888;
+}
+
+.pizza.sold-out img {
+  filter: grayscale();
+  opacity: 0.8;
+}
+}
 /*
 SPACING SYSTEM (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 40 / 48 / 64 / 80 / 96 / 128
