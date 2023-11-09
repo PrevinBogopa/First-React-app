@@ -266,6 +266,12 @@ padding-right: 30px;
   filter: grayscale();
   opacity: 0.8;
 }
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+  align-items: center;
+  gap: 1.8rem;
+}
 }
 /*
 SPACING SYSTEM (px)
