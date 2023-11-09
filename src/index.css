@@ -201,7 +201,8 @@ body {
 }
 
 .container {
-  max-width: 40rem;
+  padding-left: 30px;
+  padding-right: 30px;
   align-items: center;
   gap: 1.8rem;
 }
